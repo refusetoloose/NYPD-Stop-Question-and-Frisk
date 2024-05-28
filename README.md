@@ -3,8 +3,15 @@
 ## Overview
 This project focuses on analyzing the NYPD Stop, Question, and Frisk (SQF) data to understand the patterns and factors associated with police encounters. The dataset contains information about individuals stopped by the police, including demographic details, reasons for the stop, outcomes, and whether force was used. Various machine learning models are applied to predict different aspects of police encounters, such as the likelihood of arrest and the potential use of force.
 
-## Dataset
+## Dataset and Data Source
 The dataset used in this project is sourced from the NYPD Stop, Question, and Frisk Database. It includes records of police encounters in New York City, providing details such as demographic information (age, sex, race), circumstances of the stop, reasons for the stop, outcomes (e.g., arrest, summons), and whether force was used.
+
+Data:
+NYC Stop, Question, and Frisk Data (2012): 113 features (before creating dummy variables)
+URL: All the information and latest data set can be found here 
+```bash
+https://www.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page
+```
 
 ## Files
 1. `2012_EDA.py`: This Python script performs exploratory data analysis (EDA) on the 2012 dataset, including data cleaning, visualization, and statistical analysis.
@@ -15,6 +22,18 @@ The dataset used in this project is sourced from the NYPD Stop, Question, and Fr
 6. `df_bin.csv`: Cleaned dataset with binary-encoded features.
 7. `df_clean.csv`: Cleaned dataset with categorical and numerical features.
 8. `README.md` (Completed): The README file for the GitHub repository, including project overview, dataset details, file descriptions, and machine learning models used.
+
+## How to Use
+1. Clone the repository to your local machine:
+```bash
+https://github.com/refusetoloose/NYPD-Stop-Question-and-Frisk
+```
+
+2. Install the required dependencies by running:
+```bash
+pip install -r requirements.txt
+```
+3. Extract cleaned data files and pickle file.zip and raw data from source.zip files in the same folder and thats it.
 
 ## Reports Overview:
 1. **Exploratory Data Analysis (EDA):**
