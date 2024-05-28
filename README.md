@@ -67,6 +67,12 @@ pip install -r requirements.txt
 ## Conclusion:
 This project provides valuable insights into New York City's SQF data, including demographic patterns, spatial-temporal trends, and predictive modeling for law enforcement purposes. The findings can inform policy decisions, resource allocation, and interventions aimed at improving policing strategies and promoting community safety.
 
+Contributing
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+License
+Distributed under the MIT License. See LICENSE for more information.
+
 
 
 
